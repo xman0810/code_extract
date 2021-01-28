@@ -61,6 +61,8 @@ var codedown = function(src, lang) {
 
 if (process.argv.length === 4) {
 
+  console.log("#!/bin/bash");
+  console.log("set -e");
   console.log("export WORK_PATH=$PWD");
   console.log("export MODEL_PATH=/work/mlir-models/");
   console.log(cvitek_mlir);

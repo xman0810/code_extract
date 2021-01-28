@@ -1,6 +1,6 @@
 {
   "name": "code_extract",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "extract markdown code block",
   "main": "code_extract.js",
   "dependencies": {
